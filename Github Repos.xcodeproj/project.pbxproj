@@ -13,6 +13,7 @@
 		D19383D51F1D554C00B68FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19383D31F1D554C00B68FCC /* Main.storyboard */; };
 		D19383D71F1D554C00B68FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19383D61F1D554C00B68FCC /* Assets.xcassets */; };
 		D19383DA1F1D554C00B68FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19383D81F1D554C00B68FCC /* LaunchScreen.storyboard */; };
+		D19383E31F1D579500B68FCC /* RepoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D19383E21F1D579500B68FCC /* RepoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D19383D61F1D554C00B68FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D19383D91F1D554C00B68FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D19383DB1F1D554C00B68FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19383E11F1D579500B68FCC /* RepoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoTableViewCell.h; sourceTree = "<group>"; };
+		D19383E21F1D579500B68FCC /* RepoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D19383CE1F1D554C00B68FCC /* AppDelegate.m */,
 				D19383D01F1D554C00B68FCC /* ViewController.h */,
 				D19383D11F1D554C00B68FCC /* ViewController.m */,
+				D19383E11F1D579500B68FCC /* RepoTableViewCell.h */,
+				D19383E21F1D579500B68FCC /* RepoTableViewCell.m */,
 				D19383D31F1D554C00B68FCC /* Main.storyboard */,
 				D19383D61F1D554C00B68FCC /* Assets.xcassets */,
 				D19383D81F1D554C00B68FCC /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				D19383D21F1D554C00B68FCC /* ViewController.m in Sources */,
 				D19383CF1F1D554C00B68FCC /* AppDelegate.m in Sources */,
 				D19383CC1F1D554C00B68FCC /* main.m in Sources */,
+				D19383E31F1D579500B68FCC /* RepoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
